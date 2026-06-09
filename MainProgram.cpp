@@ -77,7 +77,7 @@ private:
     std::vector<T> items_;
 public:
     // TODO 4a: add an item to the back
-    void add(const T& item) { items_.push_back(items_); }
+    void add(const T& item) { items_.push_back(item); }
 
     // TODO 4b: return number of stored items as int
     int size() const { return static_cast<int>(items_.size()); }        // <-- replace
